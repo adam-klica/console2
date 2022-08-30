@@ -14,7 +14,7 @@ const server = http.createServer(function(request, response) {
   if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
   }else {
-  firebase.app(); // if already initialized, use that one
+  firebase.app(); // if already initialized, use that onegfgf
 }
   let database = firebase.database()
   if (request.method == 'POST') {
