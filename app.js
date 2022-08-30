@@ -59,6 +59,6 @@ const server = http.createServer(function(request, response) {
 })
 
 const port = 3000
-const host = '127.0.0.1'
+const host = 'https://console2.vercel.app/'
 server.listen(port, host)
 console.log(`Listening at http://${host}:${port}`)
